@@ -95,14 +95,14 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className="dark scroll-smooth">
+    <html lang="en" className="scroll-smooth">
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="bg-[#0B0F17] text-slate-100 antialiased selection:bg-blue-600 selection:text-white">
+      <body className="bg-[#FAFAFC] text-[#171923] antialiased selection:bg-blue-600 selection:text-white">
         {children}
       </body>
     </html>

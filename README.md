@@ -135,3 +135,4 @@ This portfolio is completely standalone:
 - **Zero changes** to Nexus ERP's backend, frontend, database, `.env`, or `start_dev.sh`.
 - Runs on port **3001** to prevent conflicts with the ERP's default port 3000.
 - All dependencies are isolated in `portfolio/package.json`.
+
