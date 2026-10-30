@@ -120,11 +120,11 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 sm:py-28 relative bg-[#FAFAFC]">
+    <section id="contact" className="py-12 sm:py-16 lg:py-20 relative bg-[#FAFAFC]">
       {/* Background radial glow */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-96 h-96 bg-blue-100/60 blur-3xl rounded-full pointer-events-none -z-10" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 sm:space-y-12">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-3">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-semibold">
@@ -140,7 +140,7 @@ export default function Contact() {
         </div>
 
         {/* Contact Container Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
           {/* Left Column: Direct Contact Info & Socials */}
           <div className="lg:col-span-5 rounded-3xl bg-white border border-[#E5E7EB] p-6 sm:p-8 space-y-6 shadow-sm">
             <div>

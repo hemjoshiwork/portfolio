@@ -33,8 +33,8 @@ export default function Process() {
   };
 
   return (
-    <section id="process" className="py-20 sm:py-28 relative bg-[#FAFAFC]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+    <section id="process" className="py-12 sm:py-16 lg:py-20 relative bg-[#FAFAFC]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 sm:space-y-12">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-3">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-semibold">
@@ -108,7 +108,7 @@ export default function Process() {
         </div>
 
         {/* Mobile / Tablet Vertical Timeline */}
-        <div className="lg:hidden relative pl-6 sm:pl-8 space-y-8">
+        <div className="lg:hidden relative pl-6 sm:pl-8 space-y-6">
           {/* Vertical Track Line */}
           <div className="absolute top-2 bottom-2 left-2.5 sm:left-3.5 w-0.5 bg-slate-200" />
 

@@ -16,14 +16,14 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative pt-28 sm:pt-36 pb-16 sm:pb-24 overflow-hidden bg-[#FAFAFC]"
+      className="relative pt-24 sm:pt-32 pb-10 sm:pb-14 overflow-hidden bg-[#FAFAFC]"
     >
       {/* Ambient background glows - subtle & restrained in light theme */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] sm:w-[750px] sm:h-[400px] bg-gradient-to-tr from-blue-100/60 via-indigo-50/40 to-violet-100/50 blur-3xl rounded-full pointer-events-none -z-10" />
       <div className="absolute top-12 right-12 w-64 h-64 bg-blue-50/80 blur-3xl rounded-full pointer-events-none -z-10" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center space-y-6 sm:space-y-8">
+        <div className="max-w-3xl mx-auto text-center space-y-5 sm:space-y-6">
           {/* Top Status & Location Badge */}
           <div className="flex flex-wrap items-center justify-center gap-2">
             <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-[#E5E7EB] text-slate-700 text-xs font-medium shadow-sm">
@@ -38,7 +38,7 @@ export default function Hero() {
           </div>
 
           {/* Three Main Capability Badges */}
-          <div className="flex flex-wrap items-center justify-center gap-2 pt-1">
+          <div className="flex flex-wrap items-center justify-center gap-2 pt-0.5">
             {capabilities.map((cap, idx) => (
               <span
                 key={cap}
@@ -72,7 +72,7 @@ export default function Hero() {
           </p>
 
           {/* Call to Actions */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 pt-2">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 pt-1">
             <a
               href="#contact"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm shadow-sm transition-all hover:scale-[1.02] focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 active:scale-95"
@@ -90,15 +90,15 @@ export default function Hero() {
           </div>
 
           {/* Compact Technology Strip */}
-          <div className="pt-8 sm:pt-10">
-            <div className="text-[11px] font-semibold uppercase tracking-wider text-[#64748B] mb-3">
+          <div className="pt-6 sm:pt-8">
+            <div className="text-[11px] font-semibold uppercase tracking-wider text-[#64748B] mb-2.5">
               Core Technologies & Frameworks
             </div>
             <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-2.5">
               {techStrip.map((tech) => (
                 <div
                   key={tech}
-                  className="px-3.5 py-1.5 rounded-lg bg-white border border-[#E5E7EB] text-slate-800 text-xs font-mono font-medium shadow-sm hover:border-slate-300 transition-colors"
+                  className="px-3 py-1.5 rounded-lg bg-white border border-[#E5E7EB] text-slate-800 text-xs font-mono font-medium shadow-sm hover:border-slate-300 transition-colors"
                 >
                   {tech}
                 </div>

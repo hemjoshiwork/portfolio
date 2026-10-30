@@ -15,8 +15,8 @@ export default function About() {
   const { profile } = siteConfig;
 
   return (
-    <section id="about" className="py-20 sm:py-28 relative bg-[#FAFAFC]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+    <section id="about" className="py-12 sm:py-16 lg:py-20 relative bg-[#FAFAFC]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 sm:space-y-12">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-3">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-semibold">
@@ -32,9 +32,9 @@ export default function About() {
         </div>
 
         {/* Main Content Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
           {/* Left Column: Story & Philosophy */}
-          <div className="lg:col-span-7 rounded-3xl bg-white border border-[#E5E7EB] p-6 sm:p-10 space-y-6 shadow-sm">
+          <div className="lg:col-span-7 rounded-3xl bg-white border border-[#E5E7EB] p-6 sm:p-8 space-y-6 shadow-sm">
             <h3 className="text-xl sm:text-2xl font-bold text-[#171923] tracking-tight">
               Engineering Practical Software for Real-World Workflows
             </h3>
