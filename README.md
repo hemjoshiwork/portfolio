@@ -1,6 +1,6 @@
 # 🌐 Hem Joshi — Developer & AI Portfolio
 
-A modern, high-performance, dark-themed personal portfolio website built with **Next.js 14 (App Router)**, **TypeScript**, and **Tailwind CSS**. Designed specifically to showcase full-stack engineering, business applications, and AI automation to prospective freelance clients, startups, manufacturers, and wholesalers.
+A modern, high-performance light-themed personal portfolio website built with **Next.js 14 (App Router)**, **TypeScript**, and **Tailwind CSS**. Designed specifically to showcase full-stack engineering, business applications, and AI automation to prospective freelance clients, startups, manufacturers, and wholesalers.
 
 ---
 
@@ -66,8 +66,7 @@ portfolio/
     │   ├── Services.tsx           # 3 client-focused service offerings with smart form routing
     │   ├── Process.tsx            # 5-step engineering delivery roadmap (horizontal & vertical)
     │   ├── Skills.tsx             # Categorized capability cards without arbitrary meters
-    │   ├── About.tsx              # Professional background, education & engineering values
-    │   ├── Certifications.tsx     # Deloitte & AWS analytics credentials
+    │   ├── About.tsx              # Professional background & engineering values
     │   ├── Contact.tsx            # Accessible client inquiry form with instant validation
     │   └── Footer.tsx             # Social links, sitemap anchors, & copyright
     ├── config/
