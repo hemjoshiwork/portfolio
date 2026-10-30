@@ -77,10 +77,6 @@ export default function RootLayout({
       addressRegion: 'Gujarat',
       addressCountry: 'India',
     },
-    alumniOf: {
-      '@type': 'CollegeOrUniversity',
-      name: siteConfig.profile.university,
-    },
     knowsAbout: [
       'Web Development',
       'Full-Stack Applications',

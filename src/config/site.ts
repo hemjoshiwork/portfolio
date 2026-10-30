@@ -35,13 +35,6 @@ export interface SkillCategory {
   skills: string[];
 }
 
-export interface Certification {
-  title: string;
-  issuer: string;
-  description: string;
-  year?: string;
-}
-
 export const siteConfig = {
   profile: {
     name: 'Hem Joshi',
@@ -50,11 +43,8 @@ export const siteConfig = {
     email: 'hemjoshiwork@gmail.com',
     github: 'https://github.com/hemjoshiwork',
     linkedin: 'https://www.linkedin.com/in/hem-joshi-85a380398/',
-    degree: 'B.Tech in Computer Engineering',
-    university: 'Indus University, Ahmedabad',
-    gradYear: '2026',
     aboutParagraphs: [
-      "I'm Hem Joshi, a Computer Engineering graduate from Ahmedabad, India. I enjoy building applications that connect software engineering with real business needs.",
+      "I'm Hem Joshi, a software developer and AI engineer based in Ahmedabad, India. I enjoy building applications that connect software engineering with real business needs.",
       "My work spans full-stack web development, backend APIs, database-driven applications, and AI-powered tools. Through projects such as Nexus ERP and my document assistant, I've explored how well-designed software can simplify workflows and make information more accessible.",
       "I'm particularly interested in working with businesses that need practical digital solutions, whether that's a product catalogue website, a custom internal application, or an AI-powered knowledge assistant.",
       "I value clear communication, maintainable code, thoughtful problem-solving, and delivering solutions that serve a genuine purpose.",
@@ -323,20 +313,6 @@ export const siteConfig = {
       ],
     },
   ] as SkillCategory[],
-  certifications: [
-    {
-      title: 'Data Analytics Job Simulation',
-      issuer: 'Deloitte Australia (via Forage)',
-      description:
-        'Practical simulation covering business data analysis, data modeling, dashboard storytelling, and translating analytics into commercial recommendations.',
-    },
-    {
-      title: 'Fundamentals of Analytics on AWS — Part 1',
-      issuer: 'Amazon Web Services (AWS)',
-      description:
-        'Foundations of cloud data warehousing, ETL pipelines, serverless analytics architectures, and data lake storage models.',
-    },
-  ] as Certification[],
   contact: {
     heading: 'Have a Project in Mind?',
     supportingCopy:

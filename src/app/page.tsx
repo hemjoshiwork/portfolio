@@ -6,7 +6,6 @@ import Services from '@/components/Services';
 import Process from '@/components/Process';
 import Skills from '@/components/Skills';
 import About from '@/components/About';
-import Certifications from '@/components/Certifications';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -21,7 +20,6 @@ export default function HomePage() {
         <Process />
         <Skills />
         <About />
-        <Certifications />
         <Contact />
       </main>
       <Footer />
